@@ -179,7 +179,7 @@
 					</div>
 					<div class="wraper">
 						<a href="#"> <img src="img/list5.png" />
-							<h3>FAMILY hrefUR</h3>
+							<h3>FAMILY TOUR</h3>
 						</a>
 					</div>
 				</div>

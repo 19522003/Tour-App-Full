@@ -1,6 +1,6 @@
 <div>
 	<header>
-		<a href="#">
+		<a href="index.jsp">
 			<button class="web-logo">
 				<img src="img/travel-logo.png" alt="first travel.com"></img>
 			</button>
@@ -36,40 +36,17 @@
 				</div>
 				<div>
 					<ul class="dropdown-content">
-						<li><a href="#">VIETNAM</a>
-
-							<ul class="subdropdown">
-								<li><a href="#">Ha Long Tours & Package Tours</a></li>
-								<li><a href="#">Ha Giang Tours & Packages</a></li>
-								<li><a href="#">Sa Pa Vacation & Tours</a></li>
-								<li><a href="#">Mai Chau & Moc Chau</a></li>
-								<li><a href="#">Ba Be Lake & Ban Gioc Waterfall</a></li>
-								<li><a href="#">Ninh Binh Tours & Package Tours</a></li>
-							</ul>
-
+						<li><a href="destination_hanoi.jsp">HA NOI</a>
 							<div class="img-hover-zoom">
 								<img src="https://demothefirst.webtravel.vn/files/images/03.jpg"></img>
 							</div></li>
-
 						<li><a href="#">MYANMARE</a>
-
-							<ul class="subdropdown">
-								<li><a href="#">Yangon</a></li>
-								<li><a href="#">Madalay</a></li>
-								<li><a href="#">Bagan</a></li>
-								<li><a href="#">Inle Lake</a></li>
-							</ul>
-
 							<div class="img-hover-zoom">
 								<img
 									src="https://demothefirst.webtravel.vn/files/images/shutterstock_494101192.jpg"></img>
 							</div></li>
 
 						<li><a href="#">LAOS</a>
-							<ul class="subdropdown">
-								<li><a href="#">Vientiane</a></li>
-								<li><a href="#">Luang Prabang</a></li>
-							</ul>
 
 							<div class="img-hover-zoom">
 								<img
@@ -132,10 +109,24 @@
 				</div>
 			</div>
 
-			
-			<button class="search-button">
-				<img src="img/search.png"></img>
-			</button>
+			<div class="col pt-3" style="position: relative;">
+				<form class="form-inline my-2 my-lg-0" action="search.jsp"
+					method="post" style="width: 260px">
+					<input class="form-control mr-sm-2" type="search" name="ch"
+						placeholder="Search" aria-label="Search">
+					<button class="btn btn-primary my-2 my-sm-0" type="submit">
+						<i class="fas fa-search"></i>
+					</button>
+				</form>
+			</div>
+
+			<div class="col"
+				style="margin-left: 50px; padding-top: 16px; position: relative;">
+				<a href="login.jsp" class="btn btn-success"><i
+					class="fas fa-sign-in-alt"></i> Login</a> <a href="register.jsp"
+					class="btn btn-primary text-white"><i class="fas fa-user-plus"></i>
+					Register</a>
+			</div>
 		</div>
 	</header>
 </div>

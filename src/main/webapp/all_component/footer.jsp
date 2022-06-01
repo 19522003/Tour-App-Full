@@ -12,7 +12,7 @@
 				<li><button>Follow Us</button></li>
 				<li><a href="#"> <img src="img/facebook.png" alt="" />
 				</a></li>
-				<li><a href="#"> <img src="img/twitter.png"alt="" />
+				<li><a href="#"> <img src="img/twitter.png" alt="" />
 				</a></li>
 				<li><a href="#"> <img src="img/google.png"alt="" />
 				</a></li>
