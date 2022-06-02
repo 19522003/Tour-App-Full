@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Ecommerce: Register</title>
+<title>Register</title>
 <%@include file="all_component/allCss.jsp"%>
 </head>
 <body>

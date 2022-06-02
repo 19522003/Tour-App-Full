@@ -30,7 +30,7 @@
 					<div class="text_item item1 ">
 						<img src="img/ba2_i1.png" />
 						<p>Staff: Our amazing guides, drivers, and staff are there
-							href ensure your family safety and comfort every step of the way.</p>
+							to ensure your family safety and comfort every step of the way.</p>
 					</div>
 				</div>
 				<div class="item_ba3">
@@ -223,7 +223,7 @@
 
 			<div class="Feedback__wrapper__wrapperright">
 				<h4 class="Feedback__wrapper__wrapperright__title">What
-					cushrefmers say</h4>
+					customers say</h4>
 
 				<div class="swiper">
 					<div class="swiper-wrapper">
@@ -231,11 +231,11 @@
 							<div class="Feedback__wrapper__wrapperright__banner">
 								<img src="img/avatar.png" alt=""
 									class="Feedback__wrapper__wrapperright__avatar" />
-								<p class="Feedback__wrapperright__appointment">The hrefur
-									was amazing such great scenario one of the best hrefurs I’ve
-									been on so far in my South East Asian adventure. The hrefur
+								<p class="Feedback__wrapperright__appointment">The tour
+									was amazing such great scenario one of the best tours I’ve
+									been on so far in my South East Asian adventure. The tour
 									guide was great very informative and spoke perfect English very
-									recommended! So glad I was able href have a great guide</p>
+									recommended! So glad I was able to have a great guide</p>
 							</div>
 
 							<div class="Feedback__wrapper__wrapperright__cushrefmer">

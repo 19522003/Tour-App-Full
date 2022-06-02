@@ -1,3 +1,8 @@
+<%@page import="com.entity.Tour"%>
+<%@page import="java.util.List"%>
+<%@page import="com.DB.DBConnect"%>
+<%@page import="com.DAO.TourDAOImpl"%>
+<%@page import="com.entity.User"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -8,6 +13,9 @@
 <%@include file="all_component/allCss.jsp"%>
 </head>
 <body>
+	<%
+	User u = (User) session.getAttribute("userobj");
+	%>
 	<%@include file="all_component/header.jsp"%>
 	<div class="banner_main_p3">
 		<div class="img_banner_top">
@@ -75,40 +83,37 @@
 		<div class="list_guide">
 			<div class="container">
 				<div class="list_guide_left">
+					<%
+					TourDAOImpl dao = new TourDAOImpl(DBConnect.getConnection());
+					List<Tour> list = dao.getAllHaNoiTour();
+					for (Tour p : list) {
+					%>
 					<div class="item_guide">
 						<div class="img_list">
-							<a href="#"> <img src="img/halong1.png"
-								alt="Best Trip in Ha Long Bay 3 Days 2 Nights" /> <span>FAMILY
-									TOUR</span>
+							<a href="#"> <img src="img/<%=p.getPhoto()%>" 
+								alt="Best Trip in Ha Long Bay 3 Days 2 Nights" /> <span><%=p.getTravelStyle()%></span>
 							</a>
 						</div>
 						<div class="wrap_list_gui">
 							<h3>
-								<a href="#" title="Best Trip in Ha Long Bay 3 Days 2 Nights">Best
-									Trip in Ha Long Bay 3 Days 2 Nights</a>
+								<a href="#" title="Best Trip in Ha Long Bay 3 Days 2 Nights"><%=p.getTourName()%></a>
 							</h3>
 							<div class="add">
 								<div class="add_left">
-									<span> <img src="img/ad1.png" alt="Location" /><i>Hanoi,
-											Ha Long Bay. Titop Island </i>
-									</span> <span> <img src="img/res.png" alt="Time" /><i>3
-											Days 2 Nights</i> <span class="price">$1500</span>
+									<span> <img src="img/ad1.png" alt="Location" /><i><%=p.getLocation()%></i>
+									</span> <span> <img src="img/res.png" alt="Time" /><i><%=p.getDays()%>
+											Days <%=p.getNights()%> Nights</i> <span class="price">$ <%=p.getPrice()%></span>
 									</span>
-									<ul>
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-										<li><a href=""><i class="fa fa-star"></i></a></li>
-									</ul>
 								</div>
 								<div class="add_view">
-									<a href="#" title="Best Trip in Ha Long Bay 3 Days 2 Nights">view
-										detail</a>
+									<a href="#" title="">view detail</a>
 								</div>
 							</div>
 						</div>
 					</div>
+					<%
+					}
+					%>
 				</div>
 			</div>
 		</div>
@@ -120,16 +125,15 @@
 	<div class="main_wrapper2">
 		<div class="heal">
 			<span class="heal_plan"><a href="#"><i
-					class="fas fa-angle-right"></i> Help Me Plan My
-					Trip</a></span>
+					class="fas fa-angle-right"></i> Help Me Plan My Trip</a></span>
 		</div>
 		<div class="wrapper_ list_post_3">
 			<div class="container">
 				<h2 class="text-center">Reviews of The First Travel's Referral
 					Service</h2>
-				<span class="star_refer text-center"> <i class="fas fa-star"></i> <i
-							class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-							class="fas fa-star"></i> <i class="fas fa-star"></i> <span>4.9
+				<span class="star_refer text-center"> <i class="fas fa-star"></i>
+					<i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+					class="fas fa-star"></i> <i class="fas fa-star"></i> <span>4.9
 						star based on 1689 reviews</span>
 				</span>
 				<div class="wrapper_list_post3">
@@ -173,8 +177,7 @@
 							have a great guide <a href="#">Read more</a>
 						</span> <span class="star_refer"><i class="fas fa-star"></i> <i
 							class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-							class="fas fa-star"></i> <i class="fas fa-star"></i>
-						</span>
+							class="fas fa-star"></i> <i class="fas fa-star"></i> </span>
 						<p>REVIEWED BY Tuan Anh</p>
 					</div>
 					<div class="item_post">

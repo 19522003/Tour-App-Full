@@ -1,3 +1,5 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page isELIgnored="false"%>
 <div>
 	<header>
 		<a href="index.jsp">
@@ -108,7 +110,6 @@
 					</ul>
 				</div>
 			</div>
-
 			<div class="col pt-3" style="position: relative;">
 				<form class="form-inline my-2 my-lg-0" action="search.jsp"
 					method="post" style="width: 260px">
@@ -119,14 +120,24 @@
 					</button>
 				</form>
 			</div>
-
-			<div class="col"
-				style="margin-left: 50px; padding-top: 16px; position: relative;">
-				<a href="login.jsp" class="btn btn-success"><i
-					class="fas fa-sign-in-alt"></i> Login</a> <a href="register.jsp"
-					class="btn btn-primary text-white"><i class="fas fa-user-plus"></i>
-					Register</a>
-			</div>
+			<c:if test="${not empty userobj }">
+				<div class="col"
+					style="margin-left: 50px; padding-top: 16px; position: relative;">
+					<a href="#" class="btn btn-success"><i
+						class="fas fa-user"></i> ${userobj.name}</a> <a href="logout"
+						class="btn btn-primary text-white"><i class="fas fa-sign-in-alt"></i>
+						Logout</a>
+				</div>
+			</c:if>
+			<c:if test="${empty userobj }">
+				<div class="col"
+					style="margin-left: 50px; padding-top: 16px; position: relative;">
+					<a href="login.jsp" class="btn btn-success"><i
+						class="fas fa-sign-in-alt"></i> Login</a> <a href="register.jsp"
+						class="btn btn-primary text-white"><i class="fas fa-user-plus"></i>
+						Register</a>
+				</div>
+			</c:if>
 		</div>
 	</header>
 </div>
