@@ -91,7 +91,7 @@
 					<div class="item_guide">
 						<div class="img_list">
 							<a href="#"> <img src="img/<%=p.getPhoto()%>" 
-								alt="Best Trip in Ha Long Bay 3 Days 2 Nights" /> <span><%=p.getTravelStyle()%></span>
+								alt="#" /> <span><%=p.getTravelStyle()%></span>
 							</a>
 						</div>
 						<div class="wrap_list_gui">
@@ -102,11 +102,13 @@
 								<div class="add_left">
 									<span> <img src="img/ad1.png" alt="Location" /><i><%=p.getLocation()%></i>
 									</span> <span> <img src="img/res.png" alt="Time" /><i><%=p.getDays()%>
-											Days <%=p.getNights()%> Nights</i> <span class="price">$ <%=p.getPrice()%></span>
+											Days <%=p.getNights()%> Nights</i> 
+											
 									</span>
 								</div>
+								<span class="price">$ <%=p.getPrice()%></span>
 								<div class="add_view">
-									<a href="#" title="">view detail</a>
+									<a href="tour_detail.jsp?tid=<%=p.getTourId()%>" title="">view detail</a>
 								</div>
 							</div>
 						</div>

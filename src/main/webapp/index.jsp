@@ -232,7 +232,7 @@
 								<img src="img/avatar.png" alt=""
 									class="Feedback__wrapper__wrapperright__avatar" />
 								<p class="Feedback__wrapperright__appointment">The tour
-									was amazing such great scenario one of the best tours I’ve
+									was amazing such great scenario one of the best tours I have
 									been on so far in my South East Asian adventure. The tour
 									guide was great very informative and spoke perfect English very
 									recommended! So glad I was able to have a great guide</p>
@@ -243,12 +243,12 @@
 								<p>-Dev</p>
 							</div>
 							<div class="Feedback__wrapper__wrapperright__dotlist">
-								<a href=""
+								<a href="#"
 									class="Feedback__wrapper__wrapperright__dotlist__item select">
-									. </a> <a href=""
-									class="Feedback__wrapper__wrapperright__dotlist__item"> . </a>
-								<a href=""
-									class="Feedback__wrapper__wrapperright__dotlist__item"> . </a>
+									</a> <a href="#"
+									class="Feedback__wrapper__wrapperright__dotlist__item"></a>
+								<a href="#"
+									class="Feedback__wrapper__wrapperright__dotlist__item">.</a>
 							</div>
 						</div>
 						<div class="swiper-slide">

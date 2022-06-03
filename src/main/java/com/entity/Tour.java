@@ -10,6 +10,14 @@ public class Tour {
 	private String city;
 	private String price;
 	private String photo;
+	private String description;
+	
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
 	public int getTourId() {
 		return tourId;
 	}
@@ -71,7 +79,7 @@ public class Tour {
 				+ ", photo=" + photo + "]";
 	}
 	public Tour(String tourName, String location, String days, String nights, String travelStyle,
-			String city, String price, String photo) {
+			String city, String price, String photo, String description) {
 		super();
 		this.tourName = tourName;
 		this.location = location;
@@ -81,6 +89,7 @@ public class Tour {
 		this.city = city;
 		this.price = price;
 		this.photo = photo;
+		this.description = description;
 	}
 	public Tour() {
 		super();

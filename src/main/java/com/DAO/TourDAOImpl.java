@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
+
 import com.entity.Tour;
 
 public class TourDAOImpl implements TourDAO {
@@ -17,8 +18,8 @@ public class TourDAOImpl implements TourDAO {
 
 	public boolean addTour(Tour p) {
 		try {
-			String sql = "INSERT INTO tour_dt(tourname, location, days, night, travelstyle, city, price, photo) "
-					+ " values (?,?,?,?,?,?,?,?)";
+			String sql = "INSERT INTO tour_dt(tourname, location, days, night, travelstyle, city, price, photo, description) "
+					+ " values (?,?,?,?,?,?,?,?,?)";
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setString(1, p.getTourName());
 			ps.setString(2, p.getLocation());
@@ -28,6 +29,7 @@ public class TourDAOImpl implements TourDAO {
 			ps.setString(6, p.getCity());
 			ps.setString(7, p.getPrice());
 			ps.setString(8, p.getPhoto());
+			ps.setString(9, p.getDescription());
 			if (ps.executeUpdate() == 1)
 			{
 				return true;
@@ -59,6 +61,7 @@ public class TourDAOImpl implements TourDAO {
 				p.setCity(rs.getString(7));
 				p.setPrice(rs.getString(8));
 				p.setPhoto(rs.getString(9));
+				p.setDescription(rs.getString(10));
 				list.add(p);
 			}
 		}catch(Exception e) {
@@ -86,6 +89,7 @@ public class TourDAOImpl implements TourDAO {
 				p.setCity(rs.getString(7));
 				p.setPrice(rs.getString(8));
 				p.setPhoto(rs.getString(9));
+				p.setDescription(rs.getString(10));
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -154,6 +158,7 @@ public class TourDAOImpl implements TourDAO {
 				p.setCity(rs.getString(7));
 				p.setPrice(rs.getString(8));
 				p.setPhoto(rs.getString(9));
+				p.setDescription(rs.getString(10));
 				list.add(p);
 		    }
 			
@@ -169,8 +174,38 @@ public class TourDAOImpl implements TourDAO {
 	}
 
 	public List<Tour> getTourBySearch(String ch) {
-		// TODO Auto-generated method stub
-		return null;
+		List<Tour> list = new ArrayList<Tour>();
+		Tour p = null;
+		
+		try {
+			String sql = "SELECT * FROM tour_dt WHERE tourname like ? or location like ? or travelstyle like ? or days like ? or price like ?";
+			PreparedStatement preparedStatement = conn.prepareStatement(sql);
+			preparedStatement.setString(1, "%" + ch + "%");
+			preparedStatement.setString(2, "%" + ch + "%");
+			preparedStatement.setString(3, "%" + ch + "%");
+			preparedStatement.setString(4, "%" + ch + "%");
+			preparedStatement.setString(5, "%" + ch + "%");
+			ResultSet rs = preparedStatement.executeQuery();
+			while (rs.next()) { 
+				p = new Tour();
+				p.setTourId(rs.getInt(1));
+				p.setTourName(rs.getString(2));
+				p.setLocation(rs.getString(3));
+				p.setDays(rs.getString(4));
+				p.setNights(rs.getString(5));
+				p.setTravelStyle(rs.getString(6));
+				p.setCity(rs.getString(7));
+				p.setPrice(rs.getString(8));
+				p.setPhoto(rs.getString(9));
+				p.setDescription(rs.getString(10));
+				list.add(p);
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return list;
 	}
 
 }

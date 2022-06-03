@@ -78,6 +78,10 @@
 									id="exampleInputEmail1" required="required" name="price">
 							</div>
 							<div class="form-group">
+								<label for=" Email1msg">Description</label>
+								<textarea class="form-control" rows="5" name="description"></textarea>
+							</div>
+							<div class="form-group">
 								<label for="inputState" class="form-label">Upload Photo</label>
 								<input type="file" name="photo" class="form-control">
 							</div>

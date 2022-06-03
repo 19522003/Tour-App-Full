@@ -25,9 +25,10 @@ public class TourAdd extends HttpServlet {
 			String style = req.getParameter("style");
 			String city = req.getParameter("city");
 			String price = req.getParameter("price");
+			String description = req.getParameter("description");
 			Part part = req.getPart("photo");
 			String fileName = part.getSubmittedFileName();
-			Tour p = new Tour(tourName, location, days, nights, style, city, price, fileName);
+			Tour p = new Tour(tourName, location, days, nights, style, city, price, fileName,description);
 
 			TourDAOImpl dao = new TourDAOImpl(DBConnect.getConnection());
 

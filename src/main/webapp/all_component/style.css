@@ -1746,101 +1746,100 @@ header .menu ul.menu_parent, ul {
 	text-transform: uppercase;
 }
 /*Tour Feature End*/
-
 .banner_picture {
-    width: 100%; 
-    margin: 40px 0 30px;
+	width: 100%;
+	margin: 40px 0 30px;
 }
 
 .banner_picture img {
-    width: 100%;
-    object-fit: cover;
+	width: 100%;
+	object-fit: cover;
 }
 
 /*Customer Review*/
 .heal {
-    padding-top: 30px;
-    padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
 
 .heal_plan {
-    display: block;
-    text-align: center;
-    margin-top: 40px;
+	display: block;
+	text-align: center;
+	margin-top: 40px;
 }
 
 .heal_plan a {
-    background: #28BEF3;
-    padding: 10px 30px;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 5px;
-    text-decoration: none;
+	background: #28BEF3;
+	padding: 10px 30px;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	text-decoration: none;
 }
 
 .list_post_3 {
-    width: 100%;
+	width: 100%;
 }
 
 .list_post_3 h2 {
-    font-size: 36px;
-    font-weight: 400;
-    margin-top: 20px;
+	font-size: 36px;
+	font-weight: 400;
+	margin-top: 20px;
 }
 
 .text-center {
-    text-align: center!important;
+	text-align: center !important;
 }
 
 .star_refer {
-    display: block;
-    width: 100%;
-    margin: 30px 0;
+	display: block;
+	width: 100%;
+	margin: 30px 0;
 }
 
 .star_refer .fa-star {
-    color: #FD4;
-    font-size: 20px;
+	color: #FD4;
+	font-size: 20px;
 }
 
 .list_post_3 .star_refer span {
-    font-size: 18px;
-    font-weight: 500;
-    padding-left: 10px;
+	font-size: 18px;
+	font-weight: 500;
+	padding-left: 10px;
 }
 
 .wrapper_list_post3 {
-    width: 100%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-column-gap: 63px;
-    grid-row-gap: 30px;
-    margin-bottom: 50px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 63px;
+	grid-row-gap: 30px;
+	margin-bottom: 50px;
 }
 
 .wrapper_list_post3 .item_post {
-    padding-right: 30px;
-    font-size: 14px;
-    font-family: sans-serif;
+	padding-right: 30px;
+	font-size: 14px;
+	font-family: sans-serif;
 }
 
 .item_guide a, .item_post a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .item_post h3 {
-    font-size: 16px;
-    font-weight: 550;
-    margin-bottom: 10px;
-    color: #0056b3;
+	font-size: 16px;
+	font-weight: 550;
+	margin-bottom: 10px;
+	color: #0056b3;
 }
 
 .item_post .text-item {
-    font-style: italic;
-    color: #000;
+	font-style: italic;
+	color: #000;
 }
 
 .item_post .star_refer {
-    margin: 15px 0;
+	margin: 15px 0;
 }
 /*Customer Review End*/
