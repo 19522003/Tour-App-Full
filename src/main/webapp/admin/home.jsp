@@ -25,10 +25,10 @@ a:hover {
 	<c:if test="${empty userobj}">
 		<c:redirect url="../login.jsp" />
 	</c:if>
-	<div style="margin-top: 100px">
+	<div style="margin-top: 200px;margin-bottom: 300px">
 		<div class="container">
 			<div class="row p-5">
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<a href="add_tour.jsp">
 						<div class="card">
 							<div class="card-body text-center">
@@ -39,34 +39,23 @@ a:hover {
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-4">
 					<a href="all_tour.jsp">
 						<div class="card">
 							<div class="card-body text-center">
-								<i class="fas fa-tshirt fa-3x text-danger"></i><br>
+								<i class="fas fa-plane-departure fa-3x text-danger"></i><br>
 								<h4>All Tour</h4>
 								-----------
 							</div>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-3">
-					<a href="orders.jsp">
+				<div class="col-md-4">
+					<a href="all_plantrip.jsp">
 						<div class="card">
 							<div class="card-body text-center">
 								<i class="fas fa-box-open fa-3x text-warning"></i><br>
-								<h4>Customer Management</h4>
-								-----------
-							</div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3">
-					<a data-toggle="modal" data-target="#exampleModalCenter">
-						<div class="card">
-							<div class="card-body text-center">
-								<i class="fas fa-sign-out-alt fa-3x text-primary"></i><br>
-								<h4>Logout</h4>
+								<h4>Customer Plan Trip</h4>
 								-----------
 							</div>
 						</div>

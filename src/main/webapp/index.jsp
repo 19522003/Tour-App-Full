@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,8 +30,8 @@
 				<div class="item_ba3">
 					<div class="text_item item1 ">
 						<img src="img/ba2_i1.png" />
-						<p>Staff: Our amazing guides, drivers, and staff are there
-							to ensure your family safety and comfort every step of the way.</p>
+						<p>Staff: Our amazing guides, drivers, and staff are there to
+							ensure your family safety and comfort every step of the way.</p>
 					</div>
 				</div>
 				<div class="item_ba3">
@@ -231,10 +232,10 @@
 							<div class="Feedback__wrapper__wrapperright__banner">
 								<img src="img/avatar.png" alt=""
 									class="Feedback__wrapper__wrapperright__avatar" />
-								<p class="Feedback__wrapperright__appointment">The tour
-									was amazing such great scenario one of the best tours I have
-									been on so far in my South East Asian adventure. The tour
-									guide was great very informative and spoke perfect English very
+								<p class="Feedback__wrapperright__appointment">The tour was
+									amazing such great scenario one of the best tours I have been
+									on so far in my South East Asian adventure. The tour guide was
+									great very informative and spoke perfect English very
 									recommended! So glad I was able to have a great guide</p>
 							</div>
 
@@ -245,10 +246,9 @@
 							<div class="Feedback__wrapper__wrapperright__dotlist">
 								<a href="#"
 									class="Feedback__wrapper__wrapperright__dotlist__item select">
-									</a> <a href="#"
-									class="Feedback__wrapper__wrapperright__dotlist__item"></a>
-								<a href="#"
-									class="Feedback__wrapper__wrapperright__dotlist__item">.</a>
+								</a> <a href="#"
+									class="Feedback__wrapper__wrapperright__dotlist__item"></a> <a
+									href="#" class="Feedback__wrapper__wrapperright__dotlist__item">.</a>
 							</div>
 						</div>
 						<div class="swiper-slide">
@@ -297,6 +297,6 @@
 	<div>
 		<%@include file="all_component/footer.jsp"%>
 	</div>
-
+	<%@include file="all_component/pop_up.jsp"%>
 </body>
 </html>

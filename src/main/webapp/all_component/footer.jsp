@@ -1,3 +1,8 @@
+
+<%@page import="com.entity.User"%>
+<%
+User c = (User) session.getAttribute("userobj");
+%>
 <footer class="footer">
 	<div class="footer__contact">
 		<div class="footer__contact-info">
@@ -14,7 +19,7 @@
 				</a></li>
 				<li><a href="#"> <img src="img/twitter.png" alt="" />
 				</a></li>
-				<li><a href="#"> <img src="img/google.png"alt="" />
+				<li><a href="#"> <img src="img/google.png" alt="" />
 				</a></li>
 				<li><a href="#"> <img src="img/pinterest.png" alt="" />
 				</a></li>
@@ -49,12 +54,15 @@
 
 		<div class="footer__more-new">
 			<form action="post">
+				<%
+				if (c == null) {
+				%>
 				<h3>NEW & UPDATE</h3>
-				<p>Sign up to recives news and updates from the first travel</p>
-				<input type="text" placeholder="Name" /> <input type="email"
-					placeholder="Email" />
-				<textarea type="text" placeholder="Message"></textarea>
-				<button>Submit</button>
+				<p>Sign up to receives news and updates from the first travel</p>
+				<%
+				}
+				%>
+
 			</form>
 		</div>
 	</div>

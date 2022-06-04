@@ -50,11 +50,7 @@
 		<div class="footer__more-new">
 			<form action="post">
 				<h3>NEW & UPDATE</h3>
-				<p>Sign up to recives news and updates from the first travel</p>
-				<input type="text" placeholder="Name" /> <input type="email"
-					placeholder="Email" />
-				<textarea type="text" placeholder="Message"></textarea>
-				<button>Submit</button>
+				<p>Sign up to receives news and updates from the first travel</p>
 			</form>
 		</div>
 	</div>

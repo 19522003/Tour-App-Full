@@ -65,7 +65,7 @@ public class TourDAOImpl implements TourDAO {
 				list.add(p);
 			}
 		}catch(Exception e) {
-			
+			e.printStackTrace();
 		}
 		
 		return list;

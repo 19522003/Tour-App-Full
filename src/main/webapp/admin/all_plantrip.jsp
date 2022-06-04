@@ -1,3 +1,5 @@
+<%@page import="com.entity.CustomerTrip"%>
+<%@page import="com.DAO.CustomerTripDAOImpl"%>
 <%@page import="java.util.List"%>
 <%@page import="com.DB.DBConnect"%>
 <%@page import="com.DAO.TourDAOImpl"%>
@@ -10,7 +12,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Admin: Tour Management</title>
+<title>Admin: Plan trip</title>
 <%@ include file="allCss.jsp"%>
 </head>
 <body>
@@ -30,46 +32,45 @@
 	<table class="table table-striped">
 		<thead>
 			<tr>
-				<th scope="col">ID</th>
-				<th scope="col">Image</th>
-				<th scope="col">Tour name</th>
+				<th scope="col">Request ID</th>
+				<th scope="col">First name</th>
+				<th scope="col">Last name</th>
+				<th scope="col">User Email</th>
 				<th scope="col">City</th>
-				<th scope="col">Location</th>
+				<th scope="col">Country</th>
+				<th scope="col">Phone</th>
+				<th scope="col">Travel Destination</th>
+				<th scope="col">Month</th>
 				<th scope="col">Days</th>
-				<th scope="col">Nights</th>
-				<th scope="col">Travel Style</th>
-				<th scope="col">Price</th>
-				<th scope="col">Action</th>
+				<th scope="col">People</th>
+				<th scope="col">Money</th>
 			</tr>
 		</thead>
 		<tbody>
 			<%
-			TourDAOImpl dao = new TourDAOImpl(DBConnect.getConnection());
-			List<Tour> list = dao.getAllTour();
-			for (Tour p : list) {
+			CustomerTripDAOImpl dao = new CustomerTripDAOImpl(DBConnect.getConnection());
+			List<CustomerTrip> list = dao.getAllCustomerTrip();
+			for (CustomerTrip p : list) {
 			%>
 			<tr>
-				<td><%=p.getTourId()%></td>
-				<td><img src="../img/<%=p.getPhoto()%>"
-					style="width: 50p; height: 50px"></td>
-				<td><%=p.getTourName()%></td>
+				<td><%=p.getRequestId()%></td>
+				<td><%=p.getFirstName()%></td>
+				<td><%=p.getLastName()%></td>
+				<td><%=p.getEmail()%></td>
 				<td><%=p.getCity()%></td>
-				<td><%=p.getLocation()%></td>
+				<td><%=p.getCountry()%></td>
+				<td><%=p.getPhone()%></td>
+				<td><%=p.getDestination()%></td>
+				<td><%=p.getMonth()%></td>
 				<td><%=p.getDays()%></td>
-				<td><%=p.getNights()%></td>
-				<td><%=p.getTravelStyle()%></td>
-				<td><%=p.getPrice()%></td>
-				<td><a href="edit_tour.jsp?id=<%=p.getTourId()%>"
-					class="btn btn-sm btn-primary"><i class="fas fa-edit"></i> Edit</a>
-					<a href="../delete_tour?id=<%=p.getTourId()%>"
-					class="btn btn-sm btn-danger"><i class="fas fa-trash-alt"></i>
-						Delete</a></td>
+				<td><%=p.getPeople()%></td>
+				<td><%=p.getMoney()%></td>
 			</tr>
 			<%
 			}
 			%>
 		</tbody>
 	</table>
-	<%@include file="footer.jsp"%>
+	<div style="margin-top: 400px"><%@include file="footer.jsp"%></div>
 </body>
 </html>
