@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Destination: Ha Noi</title>
+<title>Adventure</title>
 <%@include file="all_component/allCss.jsp"%>
 </head>
 <body>
@@ -17,15 +17,14 @@
 	<div class="banner_main_p3">
 		<div class="img_banner_top">
 			<img class="img_banner"
-				src="https://vcdn1-dulich.vnecdn.net/2022/05/12/Hanoi2-1652338755-3632-1652338809.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=NxMN93PTvOTnHNryMx3xJw"
-				alt="Ha Noi" />
+				src="https://adventurebase--live.s3.eu-west-2.amazonaws.com/uploads/2020/07/accomplishment-action-adult-adventure-372098-scaled-e1601379300758.jpg" style="width: 100%;height: 800px;object-fit: cover" />
 		</div>
 		<div class="detail_info">
 			<div class="container">
 				<div class="rutu">
 					<form action="" class="wow bounceInLeft fadeInLeft"
 						data-wow-delay=".2s">
-						<i>A 11 day trip to Ha Noi by Travel Agency 2377525</i> <span
+						<i>A 11 day trip by Travel Agency 2377525</i> <span
 							class="star"> <i class="fas fa-star"></i> <i
 							class="fas fa-star"></i> <i class="fas fa-star"></i> <i
 							class="fas fa-star"></i> <i class="fas fa-star"></i>
@@ -45,23 +44,15 @@
 	<div class="mainwrapper">
 		<div class="home_pre">
 			<div class="container">
-				<span><a href="/">Home</a></span> <span> » </span> <span>Ha
-					Noi</span>
+				<span><a href="/">Home</a></span> <span> » </span> <span>Adventure</span>
 			</div>
 		</div>
 		<div class="wrapper_ title_top_header">
 			<div class="container">
-				<h2 class="text-center">Ha Noi Tours &amp; Package Tours</h2>
+				<h2 class="text-center">Adventure Tours &amp; Package Tours</h2>
 				<div class="p_text_ninh_binh text-center">
 					<p>
-						<span> Ha Noi is one of the top destination travel in
-							Vietnam. More famous news in the Word said : Ha Long Bay one of
-							the top wonderful landscape natural in the world<br /> Cat Ba
-							island belongs to Hai Phong city about 10kms southeast of Ha Long
-							bay, 30 km form city center of Hai Phong. Cat Ba is the largest
-							island of Cat ba which is 367 island on the water of Lan Ha Bay.
-							Come to Cat Ba visitors will have a chance to enjoy the wonder of
-							nature.
+						<span> Adventure tour with nice price
 						</span><br />&nbsp;
 					</p>
 				</div>
@@ -96,7 +87,7 @@
 				<div class="list_guide_left">
 					<%
 					TourDAOImpl dao = new TourDAOImpl(DBConnect.getConnection());
-					List<Tour> list = dao.getAllHaNoiTour();
+					List<Tour> list = dao.getAllAdventureTour();
 					for (Tour p : list) {
 					%>
 					<div class="item_guide">
@@ -133,7 +124,7 @@
 
 	</div>
 	<div class="banner_picture">
-		<img src="img/halong6.png" alt="Ha Long Tours &amp; Package Tours " />
+		<img src="https://hvitserk.norrona.com/en/assets/components/phpthumbof/cache/thor-h-ulstad-ITPK-preikestolen.1a25b4b6164819f70664f1559de783ef.5fbb20e5d3859fc0f27123cb6e83b248.jpg" alt="Ha Long Tours &amp; Package Tours " />
 	</div>
 	<div class="main_wrapper2">
 		<div class="heal">

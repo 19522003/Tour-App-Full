@@ -51,11 +51,6 @@ header {
 	text-decoration: none;
 }
 
-.dropdown-img {
-	width: 10px;
-	height: 10px;
-}
-
 .btn-drop {
 	padding-top: 24px;
 	padding-bottom: 24px;
@@ -1843,4 +1838,3 @@ header .menu ul.menu_parent, ul {
 	margin: 15px 0;
 }
 /*Customer Review End*/
-

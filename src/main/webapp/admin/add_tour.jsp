@@ -14,7 +14,7 @@
 	<c:if test="${empty userobj}">
 		<c:redirect url="../login.jsp" />
 	</c:if>
-	<div class="container">
+	<div class="container" style="margin-bottom:40px">
 		<div class="row">
 			<div class="col-md-4 offset-md-4">
 				<div class="card mt-5">
@@ -70,6 +70,8 @@
 									<option selected>--Select---</option>
 									<option value="HA NOI">HA NOI</option>
 									<option value="TP HCM">TP HCM</option>
+									<option value="NHA TRANG">NHA TRANG</option>
+									<option value="DA LAT">DA LAT</option>
 								</select>
 							</div>
 							<div class="form-group">

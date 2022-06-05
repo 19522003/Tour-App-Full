@@ -32,12 +32,12 @@ User c = (User) session.getAttribute("userobj");
 		<div class="footer__more-company">
 			<h3>COMPANY</h3>
 			<ul>
-				<li><a href="#">About us</a></li>
-				<li><a href="#">The First Travel in the News</a></li>
-				<li><a href="#">Question ?</a></li>
-				<li><a href="#">Careers</a></li>
-				<li><a href="#">Term and Conditions</a></li>
-				<li><a href="#">Useful Tips</a></li>
+				<li><a href="aboutus.jsp">About us</a></li>
+				<li><a href="destination_hanoi.jsp">The First Travel in the News</a></li>
+				<li><a href="travelguide.jsp">Question ?</a></li>
+				<li><a href="#" style="pointer-events: none;">Careers</a></li>
+				<li><a href="#" style="pointer-events: none;">Term and Conditions</a></li>
+				<li><a href="travelguide.jsp">Useful Tips</a></li>
 			</ul>
 		</div>
 		<div class="footer__more-popular">
@@ -82,9 +82,9 @@ User c = (User) session.getAttribute("userobj");
 				</a></li>
 			</ul>
 			<ul class="footer__payment-company">
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">Term and Conditions</a></li>
-				<li><a href="#">Useful Tips</a></li>
+				<li><a href="aboutus.jsp">About Us</a></li>
+				<li><a href="#" style="pointer-events: none;">Term and Conditions</a></li>
+				<li><a href="travelguide.jsp">Useful Tips</a></li>
 			</ul>
 		</div>
 		<div class="footer__payment-contact">

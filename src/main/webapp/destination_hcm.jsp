@@ -9,7 +9,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Destination: Ha Noi</title>
+<title>Destination: Ho Chi Minh</title>
 <%@include file="all_component/allCss.jsp"%>
 </head>
 <body>
@@ -17,15 +17,15 @@
 	<div class="banner_main_p3">
 		<div class="img_banner_top">
 			<img class="img_banner"
-				src="https://vcdn1-dulich.vnecdn.net/2022/05/12/Hanoi2-1652338755-3632-1652338809.jpg?w=0&h=0&q=100&dpr=2&fit=crop&s=NxMN93PTvOTnHNryMx3xJw"
-				alt="Ha Noi" />
+				src="https://lesrivesexperience.com/wp-content/uploads/2018/11/sunset-on-saigon-river.jpg" style="width: 100%;height: 800px;object-fit: cover"
+				alt="Ho Chi Minh" />
 		</div>
 		<div class="detail_info">
 			<div class="container">
 				<div class="rutu">
 					<form action="" class="wow bounceInLeft fadeInLeft"
 						data-wow-delay=".2s">
-						<i>A 11 day trip to Ha Noi by Travel Agency 2377525</i> <span
+						<i>A 11 day trip to Ho Chi Minh by Travel Agency 2377525</i> <span
 							class="star"> <i class="fas fa-star"></i> <i
 							class="fas fa-star"></i> <i class="fas fa-star"></i> <i
 							class="fas fa-star"></i> <i class="fas fa-star"></i>
@@ -45,16 +45,15 @@
 	<div class="mainwrapper">
 		<div class="home_pre">
 			<div class="container">
-				<span><a href="/">Home</a></span> <span> » </span> <span>Ha
-					Noi</span>
+				<span><a href="/">Home</a></span> <span> » </span> <span>Ho Chi Minh</span>
 			</div>
 		</div>
 		<div class="wrapper_ title_top_header">
 			<div class="container">
-				<h2 class="text-center">Ha Noi Tours &amp; Package Tours</h2>
+				<h2 class="text-center">Ho Chi Minh Tours &amp; Package Tours</h2>
 				<div class="p_text_ninh_binh text-center">
 					<p>
-						<span> Ha Noi is one of the top destination travel in
+						<span> Ho Chi Minh is one of the top destination travel in
 							Vietnam. More famous news in the Word said : Ha Long Bay one of
 							the top wonderful landscape natural in the world<br /> Cat Ba
 							island belongs to Hai Phong city about 10kms southeast of Ha Long
@@ -96,7 +95,7 @@
 				<div class="list_guide_left">
 					<%
 					TourDAOImpl dao = new TourDAOImpl(DBConnect.getConnection());
-					List<Tour> list = dao.getAllHaNoiTour();
+					List<Tour> list = dao.getAllHoChiMinhTour();
 					for (Tour p : list) {
 					%>
 					<div class="item_guide">
@@ -133,7 +132,7 @@
 
 	</div>
 	<div class="banner_picture">
-		<img src="img/halong6.png" alt="Ha Long Tours &amp; Package Tours " />
+		<img src="https://www.detourista.com/wp/wp-content/uploads/Unorganized/Ho-Chi-Minh-Featured-Image.jpg?lossy=80&ssl=1" alt="Ha Long Tours &amp; Package Tours " />
 	</div>
 	<div class="main_wrapper2">
 		<div class="heal">

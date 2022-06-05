@@ -25,7 +25,7 @@ a:hover {
 	<c:if test="${empty userobj}">
 		<c:redirect url="../login.jsp" />
 	</c:if>
-	<div style="margin-top: 200px;margin-bottom: 300px">
+	<div style="margin-top: 200px; margin-bottom: 300px">
 		<div class="container">
 			<div class="row p-5">
 				<div class="col-md-4">
@@ -54,7 +54,7 @@ a:hover {
 					<a href="all_plantrip.jsp">
 						<div class="card">
 							<div class="card-body text-center">
-								<i class="fas fa-box-open fa-3x text-warning"></i><br>
+								<i class="fas fa-users fa-3x text-warning"></i><br>
 								<h4>Customer Plan Trip</h4>
 								-----------
 							</div>

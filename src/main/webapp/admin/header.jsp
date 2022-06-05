@@ -1,5 +1,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ page isELIgnored="false"%>
+<style>
+.web-logo:focus {
+	border: none;
+	outline: none;
+}
+</style>
 <header style="display: flex; position: relative;">
 	<div>
 		<a href="home.jsp">

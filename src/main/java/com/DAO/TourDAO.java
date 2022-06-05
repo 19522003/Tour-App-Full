@@ -19,5 +19,19 @@ public interface TourDAO {
 
 	public List<Tour> getAllHoChiMinhTour();
 
+	public List<Tour> getAllDaLatTour();
+
+	public List<Tour> getAllNhaTrangTour();
+
+	public List<Tour> getAllAdventureTour();
+
+	public List<Tour> getAllRelaxingTour();
+
+	public List<Tour> getAllRomanceTour();
+
+	public List<Tour> getAllFamilyTour();
+
+	public List<Tour> getAllHoneyMoonTour();
+
 	public List<Tour> getTourBySearch(String ch);
 }

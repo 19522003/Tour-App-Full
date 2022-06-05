@@ -278,6 +278,10 @@ h6 {
 	margin: auto;
 	width: 40px;
 }
+
+.heal_plan {
+	margin-bottom: 35px;
+}
 </style>
 <%@include file="all_component/allCss.jsp"%>
 </head>
@@ -395,8 +399,20 @@ h6 {
 					</div>
 
 					<div class="customixe_ wow zoomIn fadeIn" data-wow-delay=".25s">
-						<span class="heal_plan"><a href="/inquire"><i
+						<%
+						if (session.getAttribute("userobj") != null) {
+						%>
+						<span class="heal_plan"><a href="plantrip.jsp"><i
 								class="fas fa-angle-right"></i> Help Me Plan My Trip</a></span>
+						<%
+						} else {
+						%>
+						<span class="heal_plan"><a href="login.jsp"><i
+								class="fas fa-angle-right"></i> Help Me Plan My Trip</a></span>
+						<%
+						}
+						%>
+
 					</div>
 				</div>
 				<div class="col-lg-3">

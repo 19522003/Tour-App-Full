@@ -29,6 +29,7 @@ header {
 	margin-left: 130px;
 	background-color: rgb(74, 74, 74);
 	border: none;
+	outline: none;
 }
 
 .nav-bar {

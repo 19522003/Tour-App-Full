@@ -7,6 +7,16 @@
 <meta charset="ISO-8859-1">
 <title>Home Page</title>
 <%@include file="all_component/allCss.jsp"%>
+<style type="text/css">
+.wraper:hover img {
+	transform: scale(1.4);
+}
+
+.item_ba3:hover img {
+	transform: scale(1.1);
+	transition: transform 0.8s ease;
+}
+</style>
 </head>
 <body>
 	<%@include file="all_component/header.jsp"%>
@@ -98,7 +108,8 @@
 					</div>
 					<div class="best_right">
 						<ul>
-							<li><a title="" href="">
+							<li><a title="" href=""
+								style="pointer-events: none; cursor: default;">
 									<div class="img_b4 i1" style="content: url('img/b1.png');"></div>
 									<div class="text_righ">
 										<h5>Best price</h5>
@@ -107,7 +118,7 @@
 											href beat. </span>
 									</div>
 							</a></li>
-							<li><a title="" href="">
+							<li><a title="" href="" style="pointer-events: none; cursor: default;">
 									<div class="img_b4 i2" style="content: url('img/b2.png');"></div>
 									<div class="text_righ">
 										<h5>Quality guarantee</h5>
@@ -115,7 +126,7 @@
 											the most enjoyable trip.</span>
 									</div>
 							</a></li>
-							<li><a title="" href="">
+							<li><a title="" href="" style="pointer-events: none; cursor: default;">
 									<div class="img_b4 i3" style="content: url('img/b3.png');"></div>
 									<div class="text_righ">
 										<h5>Efficient cushrefmer support</h5>
@@ -123,7 +134,7 @@
 											href give you a hand at any time.</span>
 									</div>
 							</a></li>
-							<li><a title="" href="">
+							<li><a title="" href="" style="pointer-events: none; cursor: default;">
 									<div class="img_b4 i4" style="content: url('img/b4.png');"></div>
 									<div class="text_righ">
 										<h5>Specialist hrefur operahrefr</h5>
@@ -132,7 +143,7 @@
 											after you have returned home </span>
 									</div>
 							</a></li>
-							<li><a title="" href="">
+							<li><a title="" href="" style="pointer-events: none; cursor: default;">
 									<div class="img_b4 i5" style="content: url('img/b5.png');"></div>
 									<div class="text_righ">
 										<h5>Local experience</h5>
@@ -157,29 +168,29 @@
 			<div class="wrap_list_baner6">
 				<div class="lits1">
 					<div class="wraper">
-						<a href="#"> <img src="img/list1.png" />
+						<a href="romance_tour.jsp"> <img src="img/list1.png" />
 							<h3>ROMANCE</h3>
 						</a>
 					</div>
 					<div class="wraper">
-						<a href="#"> <img src="img/list2.png" />
+						<a href="honeymoon_tour.jsp"> <img src="img/list2.png" />
 							<h3>HONEYMOON</h3>
 						</a>
 					</div>
 				</div>
 				<div class="lits2">
 					<div class="wraper">
-						<a href="#"> <img src="img/list3.png" />
+						<a href="adventure_tour.jsp"> <img src="img/list3.png" />
 							<h3>ADVENTURE</h3>
 						</a>
 					</div>
 					<div class="wraper">
-						<a href="#"> <img src="img/list4.png" />
+						<a href="relaxing_tour.jsp"> <img src="img/list4.png" />
 							<h3>RELAXING</h3>
 						</a>
 					</div>
 					<div class="wraper">
-						<a href="#"> <img src="img/list5.png" />
+						<a href="family_tour.jsp"> <img src="img/list5.png" />
 							<h3>FAMILY TOUR</h3>
 						</a>
 					</div>
