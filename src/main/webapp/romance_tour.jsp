@@ -44,7 +44,7 @@
 	<div class="mainwrapper">
 		<div class="home_pre">
 			<div class="container">
-				<span><a href="/">Home</a></span> <span> » </span> <span>Romance</span>
+				<span><a href="index.jsp">Home</a></span> <span> » </span> <span>Romance</span>
 			</div>
 		</div>
 		<div class="wrapper_ title_top_header">
@@ -234,5 +234,6 @@
 	</div>
 	<%@include file="all_component/footer.jsp"%>
 	<%@include file="all_component/pop_up.jsp"%>
+	<%@include file="all_component/scroll_top.jsp"%>
 </body>
 </html>

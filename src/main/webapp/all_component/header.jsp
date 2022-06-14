@@ -61,8 +61,8 @@
 				aria-haspopup="true" aria-expanded="false">TRAVEL STYLE</a>
 				<div>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="destination_hanoi.jsp">ADVENTURE</a></li>
-						<li><a class="dropdown-item" href="destination_hcm.jsp">HONEYMOON</a></li>
+						<li><a class="dropdown-item" href="adventure_tour.jsp">ADVENTURE</a></li>
+						<li><a class="dropdown-item" href="honeymoon_tour.jsp">HONEYMOON</a></li>
 						<li><a class="dropdown-item" href="relaxing_tour.jsp">RELAXING</a></li>
 						<li><a class="dropdown-item" href="romance_tour.jsp">ROMANCE</a></li>
 						<li><a class="dropdown-item" href="family_tour.jsp">FAMILY

@@ -11,7 +11,7 @@
 </head>
 <body>
 	<%@include file="all_component/header.jsp"%>
-	<div class="container" style="padding: 250px 0 250px 0 ">
+	<div class="container" style="padding: 200px 0 250px 0 ">
 		<div class="row mt-2">
 			<div class="col-md-4 offset-md-4">
 				<div class="card">

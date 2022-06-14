@@ -194,8 +194,8 @@ User u = (User) session.getAttribute("userobj");
 			</div>
 			<div class="modal-body">
 				<p>Well actually, this is not your normal brochure. This is The
-					Agenda. A brochure reimagined with beautiful imagery, need to know
-					about travel in 2019.</p>
+					Ha Noi. A brochure reimagined with beautiful imagery, need to know
+					about travel in 2022.</p>
 				<input type="text" name="" placeholder="Your email address">
 				
 				<span class="show_agen"><a href="destination_hanoi.jsp"

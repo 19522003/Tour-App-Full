@@ -44,7 +44,7 @@
 	<div class="mainwrapper">
 		<div class="home_pre">
 			<div class="container">
-				<span><a href="/">Home</a></span> <span> » </span> <span>Adventure</span>
+				<span><a href="index.jsp">Home</a></span> <span> » </span> <span>Adventure</span>
 			</div>
 		</div>
 		<div class="wrapper_ title_top_header">

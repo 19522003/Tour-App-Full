@@ -8,10 +8,10 @@
 <%@include file="all_component/allCss.jsp"%>
 <style>
 .nous-about {
-	padding-top: 40px;
+	padding-top: 30px;
 	background-size: cover;
 	text-align: center;
-	margin-top: 10px;
+	
 	background: highlighttext;
 }
 
@@ -57,6 +57,7 @@
 	padding: 80px 30px;
 	background-color: #f1f1f1;
 	text-align: center;
+	border: 3px solid black;
 }
 
 .all-made .made-one .made-P {
@@ -138,6 +139,7 @@ div#panel5 {
 	background-color: #f4f4f4;
 	padding: 23px 30px;
 	margin: 15px 15px;
+	border: 3px solid black;
 }
 
 .all-pa .h3-pa h3 {
@@ -201,11 +203,20 @@ div#panel5 {
 	transform: scale(1.1);
 	transition: transform 0.5s ease;
 }
+
+.bg-image {
+	/* The image used */
+	background-image: url("img/travelbg.png");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 </style>
 </head>
 <body>
 	<%@include file="all_component/header.jsp"%>
-	<div class="nous-about">
+	<div class="nous-about bg-image">
 		<div class="container">
 			<h2 class="wow fadeInUp"
 				style="visibility: visible; animation-name: fadeInUp;">We are
@@ -214,7 +225,7 @@ div#panel5 {
 		<div class="container">
 			<div class="">
 				<div style="text-align: center">
-					<div style="text-align: justify">LEDMC is a team of
+					<div style="text-align: justify; color:white">LEDMC is a team of
 						professionals whose aim is to bring satisfaction and pleasure to
 						our customers by offering them bucket-list experiences at
 						unbelievable prices. We provide tours, hotel bookings, flight
@@ -301,7 +312,7 @@ div#panel5 {
 				<div class="container">
 					<h2 class="tittle-hi">Meet Our Team</h2>
 					<div class="col-lg-7" style="margin: auto; margin-bottom: 30px;">
-						<div class="hi-sub">
+						<div class="hi-sub" style="color:white">
 							All of our travel consultants follow a specially devised training
 							program to develop their expertise in all aspects of travel and
 							customer service. We personally check the hotels, resorts, and
@@ -381,5 +392,6 @@ div#panel5 {
 		<%@include file="all_component/footer.jsp"%>
 	</div>
 	<%@include file="all_component/pop_up.jsp"%>
+	<%@include file="all_component/scroll_top.jsp"%>
 </body>
 </html>

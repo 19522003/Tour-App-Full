@@ -447,5 +447,6 @@ h6 {
 		</div>
 	</main>
 	<%@include file="all_component/footer.jsp"%>
+	<%@include file="all_component/scroll_top.jsp"%>
 </body>
 </html>
