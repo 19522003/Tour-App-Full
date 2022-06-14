@@ -17,18 +17,18 @@
 	<div class="banner_main_p3">
 		<div class="img_banner_top">
 			<img class="img_banner"
-				src="https://www.vietnambooking.com/wp-content/uploads/2021/01/honeymoon-la-gi.jpg" style="width: 100%;height: 800px;object-fit: cover"
-				 />
+				src="https://www.vietnambooking.com/wp-content/uploads/2021/01/honeymoon-la-gi.jpg"
+				style="width: 100%; height: 800px; object-fit: cover" />
 		</div>
 		<div class="detail_info">
 			<div class="container">
 				<div class="rutu">
 					<form action="" class="wow bounceInLeft fadeInLeft"
 						data-wow-delay=".2s">
-						<i>A 11 day trip</i> <span
-							class="star"> <i class="fas fa-star"></i> <i
+						<i>A 11 day trip</i> <span class="star"> <i
 							class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-							class="fas fa-star"></i> <i class="fas fa-star"></i>
+							class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+							class="fas fa-star"></i>
 						</span> <span><a href=""><i>40 REVIEWS</i></a></span>
 					</form>
 				</div>
@@ -53,8 +53,11 @@
 				<h2 class="text-center">Honeymoon Tours &amp; Package Tours</h2>
 				<div class="p_text_ninh_binh text-center">
 					<p>
-						<span>
-						</span><br />&nbsp;
+						<span>Your love brings me all the joy in the world. I hope
+							you know how loved and cared for you are. You make me feel a kind
+							of happy I've never felt before. With you in my life, I'm always
+							on cloud nine. Thank you for your love and all the ways you
+							support me  I'm the luckiest to have your love in my life. </span><br />&nbsp;
 					</p>
 				</div>
 				<%
@@ -125,7 +128,9 @@
 
 	</div>
 	<div class="banner_picture">
-		<img src="https://www.barcelo.com/pinandtravel/wp-content/uploads/2017/03/pin-and-travel-honeymoon-mauritius@2x.jpg" alt="Ha Long Tours &amp; Package Tours " />
+		<img
+			src="https://www.barcelo.com/pinandtravel/wp-content/uploads/2017/03/pin-and-travel-honeymoon-mauritius@2x.jpg"
+			alt="Ha Long Tours &amp; Package Tours " />
 	</div>
 	<div class="main_wrapper2">
 		<div class="heal">

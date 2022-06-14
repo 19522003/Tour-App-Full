@@ -26,7 +26,7 @@
 				List<Tour> list = dao.getTourBySearch(ch);
 				for (Tour p : list) {
 				%>
-				<div class="item_guide" style="margin-top:100px">
+				<div class="item_guide">
 					<div class="img_list">
 						<a href="#"> <img src="img/<%=p.getPhoto()%>"
 							alt="Best Trip in Ha Long Bay 3 Days 2 Nights" /> <span><%=p.getTravelStyle()%></span>

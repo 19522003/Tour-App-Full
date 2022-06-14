@@ -52,8 +52,21 @@
 				<h2 class="text-center">Relaxing Tours &amp; Package Tours</h2>
 				<div class="p_text_ninh_binh text-center">
 					<p>
-						<span>
-						</span><br />&nbsp;
+						<span>Begin to be aware of your breathing. Notice your steady rate
+							of inhaling and exhaling. Notice that perhaps your chest rises
+							and falls as you breathe. Try to inch your breath lower into your
+							body as you breathe. Filling up your lungs from the bottom up.
+							Using your stomach muscles to gently pull your breath downward.
+							Its almost as though you are breathing in and out of your belly
+							button. As you exhale, imagine stress and tension being released.
+							You gently pull in clean, refreshing air, and as you breath out,
+							you send out stress and anxiety. Refreshing breath in, worry or
+							pain out. Feel your whole body becoming more relaxed as you
+							exhale, releasing the sensations that are not serving you well..
+							Feel the calm and quiet with each new breath You are making
+							room within yourself. You are making space for your self to relax
+							and unwind. Comfortable, pain-free, worry-free space for
+							yourself. </span><br />&nbsp;
 					</p>
 				</div>
 				<%

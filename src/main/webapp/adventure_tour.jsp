@@ -17,17 +17,18 @@
 	<div class="banner_main_p3">
 		<div class="img_banner_top">
 			<img class="img_banner"
-				src="https://adventurebase--live.s3.eu-west-2.amazonaws.com/uploads/2020/07/accomplishment-action-adult-adventure-372098-scaled-e1601379300758.jpg" style="width: 100%;height: 800px;object-fit: cover" />
+				src="https://adventurebase--live.s3.eu-west-2.amazonaws.com/uploads/2020/07/accomplishment-action-adult-adventure-372098-scaled-e1601379300758.jpg"
+				style="width: 100%; height: 800px; object-fit: cover" />
 		</div>
 		<div class="detail_info">
 			<div class="container">
 				<div class="rutu">
 					<form action="" class="wow bounceInLeft fadeInLeft"
 						data-wow-delay=".2s">
-						<i>A 11 day trip by Travel Agency 2377525</i> <span
-							class="star"> <i class="fas fa-star"></i> <i
+						<i>A 11 day trip by Travel Agency 2377525</i> <span class="star">
+							<i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
 							class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-							class="fas fa-star"></i> <i class="fas fa-star"></i>
+							class="fas fa-star"></i>
 						</span> <span><a href=""><i>40 REVIEWS</i></a></span>
 					</form>
 				</div>
@@ -52,8 +53,11 @@
 				<h2 class="text-center">Adventure Tours &amp; Package Tours</h2>
 				<div class="p_text_ninh_binh text-center">
 					<p>
-						<span> Adventure tour with nice price
-						</span><br />&nbsp;
+						<span> Adventure tour with nice price,Gulliver's Travels is
+							a satirical adventure novel by author Jonathan Swift. In this
+							classic of English literature, a man named Gulliver is
+							shipwrecked on a strange island, and from then on encounters many
+							unusual people, places, and things. </span><br />&nbsp;
 					</p>
 				</div>
 				<%
@@ -124,7 +128,9 @@
 
 	</div>
 	<div class="banner_picture">
-		<img src="https://hvitserk.norrona.com/en/assets/components/phpthumbof/cache/thor-h-ulstad-ITPK-preikestolen.1a25b4b6164819f70664f1559de783ef.5fbb20e5d3859fc0f27123cb6e83b248.jpg" alt="Ha Long Tours &amp; Package Tours " />
+		<img
+			src="https://hvitserk.norrona.com/en/assets/components/phpthumbof/cache/thor-h-ulstad-ITPK-preikestolen.1a25b4b6164819f70664f1559de783ef.5fbb20e5d3859fc0f27123cb6e83b248.jpg"
+			alt="Ha Long Tours &amp; Package Tours " />
 	</div>
 	<div class="main_wrapper2">
 		<div class="heal">
@@ -234,5 +240,6 @@
 	</div>
 	<%@include file="all_component/footer.jsp"%>
 	<%@include file="all_component/pop_up.jsp"%>
+	<%@include file="all_component/scroll_top.jsp"%>
 </body>
 </html>

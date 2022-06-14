@@ -26,7 +26,6 @@ main {
 }
 
 .text-title {
-	padding: 0 15px;
 	margin-bottom: 15px;
 }
 
@@ -139,7 +138,6 @@ img {
 
 .control_list {
 	margin-top: 50px;
-	margin-bottom: 40px;
 }
 
 .control_list ul {
@@ -207,7 +205,7 @@ img {
 .imgdetailad {
 	width: 45px;
 	float: left;
-	height: 50px;
+	padding: 1px;
 }
 
 .col-lg-3 {
@@ -225,7 +223,7 @@ img {
 .qq1 {
 	position: -webkit-sticky;
 	position: sticky;
-	top: 95px;
+	top: 75px;
 	width: 100%;
 	border: 1px solid;
 	padding: 15px;
@@ -295,12 +293,6 @@ h6 {
 	<main>
 		<div class="container_" style="margin-bottom: 80px">
 			<div class="row">
-				<h3 class="text-title"><%=p.getLocation()%>
-					<%=p.getDays()%>
-					Days
-					<%=p.getNights()%>
-					Nights
-				</h3>
 				<div class="col-lg-9">
 					<div class="banner_top">
 						<div class="banner_main">
@@ -326,6 +318,12 @@ h6 {
 							</div>
 						</div>
 					</div>
+					<h3 class="text-title"><%=p.getLocation()%>
+						<%=p.getDays()%>
+						Days
+						<%=p.getNights()%>
+						Nights
+					</h3>
 					<div class="control_list">
 						<ul class="nav nav-tabs">
 							<li class="wow bounceInLeft fadeInLeft" data-wow-delay=".2s"><a

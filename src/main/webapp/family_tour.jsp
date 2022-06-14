@@ -17,7 +17,8 @@
 	<div class="banner_main_p3">
 		<div class="img_banner_top">
 			<img class="img_banner"
-				src="https://img.freepik.com/free-photo/tropical-vacation-whole-family_120960-2218.jpg?w=2000" style="width: 100%;height: 800px;object-fit: cover"
+				src="https://img.freepik.com/free-photo/tropical-vacation-whole-family_120960-2218.jpg?w=2000"
+				style="width: 100%; height: 800px; object-fit: cover"
 				alt="Family Tour" />
 		</div>
 		<div class="detail_info">
@@ -25,10 +26,10 @@
 				<div class="rutu">
 					<form action="" class="wow bounceInLeft fadeInLeft"
 						data-wow-delay=".2s">
-						<i>A 11 day trip</i> <span
-							class="star"> <i class="fas fa-star"></i> <i
+						<i>A 11 day trip</i> <span class="star"> <i
 							class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-							class="fas fa-star"></i> <i class="fas fa-star"></i>
+							class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+							class="fas fa-star"></i>
 						</span> <span><a href=""><i>40 REVIEWS</i></a></span>
 					</form>
 				</div>
@@ -45,7 +46,8 @@
 	<div class="mainwrapper">
 		<div class="home_pre">
 			<div class="container">
-				<span><a href="index.jsp">Home</a></span> <span> » </span> <span>Family Tour</span>
+				<span><a href="index.jsp">Home</a></span> <span> » </span> <span>Family
+					Tour</span>
 			</div>
 		</div>
 		<div class="wrapper_ title_top_header">
@@ -53,8 +55,16 @@
 				<h2 class="text-center">Family Tours &amp; Package Tours</h2>
 				<div class="p_text_ninh_binh text-center">
 					<p>
-						<span> 
-						</span><br />&nbsp;
+						<span> Family is what you have, whether you are successful
+							or not. Wealth emerges and disappears, but family gets bigger
+							every year. Family is a group of people who decided to live
+							together, not only to survive, but to love one another, not only
+							for a moment, but for a lifetime. Some families have beauty and
+							brains, some have wealth and influence, some have power and fame,
+							but my family have the best of everything. They have me. Perhaps
+							the greatest social service that can be rendered by anybody to
+							this country and to mankind is to bring up a family.
+							J. Fox </span><br />&nbsp;
 					</p>
 				</div>
 				<%
@@ -125,7 +135,9 @@
 
 	</div>
 	<div class="banner_picture">
-		<img src="https://motherhoodtherealdeal.com/wp-content/uploads/2016/03/fingers-family-on-the-beach-summer-holiday.jpg" alt="Ha Long Tours &amp; Package Tours " />
+		<img
+			src="https://motherhoodtherealdeal.com/wp-content/uploads/2016/03/fingers-family-on-the-beach-summer-holiday.jpg"
+			alt="Ha Long Tours &amp; Package Tours " />
 	</div>
 	<div class="main_wrapper2">
 		<div class="heal">

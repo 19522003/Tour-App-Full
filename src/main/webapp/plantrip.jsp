@@ -229,7 +229,7 @@ option {
 	<%
 	User u = (User) session.getAttribute("userobj");
 	%>
-	<div class="container_" style="margin-top: 100px; margin-bottom: 50px">
+	<div class="container_" style="margin-top: 10px; margin-bottom: 50px">
 		<div class="home_pre" style="margin-bottom: 30px">
 			<span><a href="index.jsp"
 				style="text-decoration: none; color: #1c1c1c;">Home</a></span> <span>
