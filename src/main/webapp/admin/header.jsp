@@ -6,12 +6,11 @@
 	outline: none;
 }
 </style>
-<header style="display: flex; position: relative;">
+<header class="navbar navbar-expand-lg navbar-dark bg-dark"
+	style="display: flex; position: relative;">
 	<div>
-		<a href="home.jsp">
-			<button class="web-logo">
-				<img src="../img/travel-logo.png" alt="first travel.com"></img>
-			</button>
+		<a class="navbar-brand" href="home.jsp"> <img
+			src="../img/travel-logo.png" alt="first travel.com"></img>
 		</a>
 		<c:if test="${not empty userobj }">
 			<div class="col"
@@ -35,29 +34,29 @@
 	</div>
 </header>
 <!-- Modal -->
-	<div class="modal fade" id="exampleModalCenter" tabindex="-1"
-		role="dialog" aria-labelledby="exampleModalCenterTitle"
-		aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle"></h5>
-					<button type="button" class="close" data-dismiss="modal"
-						aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div class="text-center">
-						<h4 style="margin-bottom: 30px">Are you sure to logout ?</h4>
-						<button type="button" class="btn btn-secondary"
-							data-dismiss="modal">Cancel</button>
-						<a href="../logout" type="button"
-							class="btn btn-primary text-white">Logout</a>
-					</div>
-				</div>
-				<div class="modal-footer"></div>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1"
+	role="dialog" aria-labelledby="exampleModalCenterTitle"
+	aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalLongTitle"></h5>
+				<button type="button" class="close" data-dismiss="modal"
+					aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
 			</div>
+			<div class="modal-body">
+				<div class="text-center">
+					<h4 style="margin-bottom: 30px">Are you sure to logout ?</h4>
+					<button type="button" class="btn btn-secondary"
+						data-dismiss="modal">Cancel</button>
+					<a href="../logout" type="button"
+						class="btn btn-primary text-white">Logout</a>
+				</div>
+			</div>
+			<div class="modal-footer"></div>
 		</div>
 	</div>
-	<!-- End Modal -->
+</div>
+<!-- End Modal -->

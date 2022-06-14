@@ -8,10 +8,10 @@
 <%@include file="all_component/allCss.jsp"%>
 <style>
 .nous-about {
-	padding-top: 50px;
+	padding-top: 40px;
 	background-size: cover;
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 10px;
 	background: highlighttext;
 }
 

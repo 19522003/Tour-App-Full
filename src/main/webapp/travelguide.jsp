@@ -12,7 +12,7 @@
 	padding-left: 15px;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 80px;
+	margin-top: 20px;
 	margin-bottom: 40px;
 }
 

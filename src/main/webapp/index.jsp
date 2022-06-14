@@ -309,5 +309,6 @@
 		<%@include file="all_component/footer.jsp"%>
 	</div>
 	<%@include file="all_component/pop_up.jsp"%>
+	<%@include file="all_component/scroll_top.jsp"%>
 </body>
 </html>

@@ -12,7 +12,7 @@
 <title>Tour Detail</title>
 <style type="text/css">
 main {
-	margin-top: 40px;
+	margin-top: 10px;
 	width: 100%;
 }
 
@@ -293,7 +293,7 @@ h6 {
 	Tour p = dao.getTourbyID(tid);
 	%>
 	<main>
-		<div class="container_" style="margin-top: 80px; margin-bottom: 80px">
+		<div class="container_" style="margin-bottom: 80px">
 			<div class="row">
 				<h3 class="text-title"><%=p.getLocation()%>
 					<%=p.getDays()%>
