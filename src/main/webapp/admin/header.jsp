@@ -5,26 +5,48 @@
 	border: none;
 	outline: none;
 }
+
+.dropdown .btn-drop:hover a {
+	color: #28bef3;
+}
+
+.btn-drop .fa-chevron-down {
+	color: white;
+}
+
+.btn-drop:hover .fa-chevron-down {
+	color: #28bef3;
+}
+
+.img-hover-zoom img {
+	transition: transform 0.5s ease;
+	top: 100px;
+	width: 100px;
+	height: 100px;
+}
 </style>
-<header class="navbar navbar-expand-lg navbar-dark bg-dark"
-	style="display: flex; position: relative;">
-	<div>
-		<a class="navbar-brand" href="home.jsp"> <img
-			src="../img/travel-logo.png" alt="first travel.com"></img>
-		</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" href="#"><img
+		src="../img/travel-logo.png" alt="first travel.com"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse"
+		data-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent" aria-expanded="false"
+		aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent" style="position: relative;">
 		<c:if test="${not empty userobj }">
-			<div class="col"
-				style="padding-top: 16px; position: absolute; left: 1500px; top: 1px">
+			<div class="col-md-3">
 				<a href="#" class="btn btn-success"><i class="fas fa-user"></i>
 					${userobj.name}</a> <a data-toggle="modal"
 					data-target="#exampleModalCenter"
-					class="btn btn-primary text-white"><i
+					class="btn btn-primary text-white" style="margin-left: 5px"><i
 					class="fas fa-sign-in-alt"></i> Logout</a>
 			</div>
 		</c:if>
 		<c:if test="${empty userobj }">
-			<div class="col"
-				style="right: 50px; padding-top: 16px; position: relative;">
+			<div class="col-md-3">
 				<a href="../login.jsp" class="btn btn-success"><i
 					class="fas fa-sign-in-alt"></i> Login</a> <a href="../register.jsp"
 					class="btn btn-primary text-white"><i class="fas fa-user-plus"></i>
@@ -32,7 +54,7 @@
 			</div>
 		</c:if>
 	</div>
-</header>
+</nav>
 <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1"
 	role="dialog" aria-labelledby="exampleModalCenterTitle"
@@ -51,8 +73,7 @@
 					<h4 style="margin-bottom: 30px">Are you sure to logout ?</h4>
 					<button type="button" class="btn btn-secondary"
 						data-dismiss="modal">Cancel</button>
-					<a href="../logout" type="button"
-						class="btn btn-primary text-white">Logout</a>
+					<a href="../logout" type="button" class="btn btn-primary text-white">Logout</a>
 				</div>
 			</div>
 			<div class="modal-footer"></div>
