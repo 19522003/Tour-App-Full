@@ -86,8 +86,9 @@
 		</form>
 		<c:if test="${not empty userobj }">
 			<div class="col-md-3" style="display: flex;">
-				<a href="login.jsp" class="btn btn-success"><i
-					class="fas fa-user"></i> ${userobj.name}</a> <a href="logout"
+				<a href="#" class="btn btn-success"><i class="fas fa-user"></i>
+					${userobj.name}</a> <a data-toggle="modal"
+					data-target="#exampleModalCenter"
 					class="btn btn-primary text-white" style="margin-left: 5px"><i
 					class="fas fa-sign-in-alt"></i> Logout</a>
 			</div>
