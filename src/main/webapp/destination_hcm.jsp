@@ -45,7 +45,7 @@
 	<div class="mainwrapper">
 		<div class="home_pre">
 			<div class="container">
-				<span><a href="index.jsp">Home</a></span> <span> » </span> <span>Ho Chi Minh</span>
+				<span><a href="index.jsp">Home</a></span> <span> ï¿½ </span> <span>Ho Chi Minh</span>
 			</div>
 		</div>
 		<div class="wrapper_ title_top_header">
@@ -60,7 +60,7 @@
 							bay, 30 km form city center of Hai Phong. Cat Ba is the largest
 							island of Cat ba which is 367 island on the water of Lan Ha Bay.
 							Come to Cat Ba visitors will have a chance to enjoy the wonder of
-							nature.
+							nature. This place has the typical scenery of Ha Long Bay with limestone mountains and calm blue sea.
 						</span><br />&nbsp;
 					</p>
 				</div>
