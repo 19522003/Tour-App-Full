@@ -24,6 +24,13 @@
 	width: 100px;
 	height: 100px;
 }
+.dropdown-item.gray {
+	color: #999;
+}
+.dropdown-item.gray:hover {
+	color: #000;
+	font-weight: 600;
+}
 </style>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	<a class="navbar-brand" href="index.jsp"><img
@@ -43,15 +50,15 @@
 				aria-haspopup="true" aria-expanded="false">DESTINATION</a>
 				<div>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="destination_hanoi.jsp">HA
+						<li><a class="dropdown-item gray gray" href="destination_hanoi.jsp">HA
 								NOI</a></li>
-						<li><a class="dropdown-item" href="destination_hcm.jsp">HO
+						<li><a class="dropdown-item gray" href="destination_hcm.jsp">HO
 								CHI MINH </a></li>
 
-						<li><a class="dropdown-item" href="destination_nhatrang.jsp">NHA
+						<li><a class="dropdown-item gray" href="destination_nhatrang.jsp">NHA
 								TRANG</a></li>
 
-						<li><a class="dropdown-item" href="destination_dalat.jsp">DA
+						<li><a class="dropdown-item gray" href="destination_dalat.jsp">DA
 								LAT</a></li>
 					</ul>
 				</div></li>
@@ -61,11 +68,11 @@
 				aria-haspopup="true" aria-expanded="false">TRAVEL STYLE</a>
 				<div>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="adventure_tour.jsp">ADVENTURE</a></li>
-						<li><a class="dropdown-item" href="honeymoon_tour.jsp">HONEYMOON</a></li>
-						<li><a class="dropdown-item" href="relaxing_tour.jsp">RELAXING</a></li>
-						<li><a class="dropdown-item" href="romance_tour.jsp">ROMANCE</a></li>
-						<li><a class="dropdown-item" href="family_tour.jsp">FAMILY
+						<li><a class="dropdown-item gray" href="adventure_tour.jsp">ADVENTURE</a></li>
+						<li><a class="dropdown-item gray" href="honeymoon_tour.jsp">HONEYMOON</a></li>
+						<li><a class="dropdown-item gray" href="relaxing_tour.jsp">RELAXING</a></li>
+						<li><a class="dropdown-item gray" href="romance_tour.jsp">ROMANCE</a></li>
+						<li><a class="dropdown-item gray" href="family_tour.jsp">FAMILY
 								TOUR</a></li>
 					</ul>
 				</div></li>
